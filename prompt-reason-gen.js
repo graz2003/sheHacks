@@ -1,3 +1,8 @@
+
+var needs = "";
+var p1Interests = "";
+var p2Interests = "";
+
 const cohere = require('cohere-ai');
 cohere.init('r4zPIup5DHKVKofsQEXkdLjmBSogAJZWheEyVjs6');
 (async () => {
@@ -15,3 +20,4 @@ cohere.init('r4zPIup5DHKVKofsQEXkdLjmBSogAJZWheEyVjs6');
   });
   console.log(`Prediction: ${response.body.generations[0].text}`);
 })();
+

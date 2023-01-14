@@ -15,3 +15,9 @@ cohere.init('r4zPIup5DHKVKofsQEXkdLjmBSogAJZWheEyVjs6');
   });
   console.log(`Prediction: ${response.body.generations[0].text}`);
 })();
+
+var string = ${response.body.generations[0].text}.split(/\n/);
+console.log(string);
+
+
+
