@@ -6,6 +6,7 @@ var player2Score = 0;
 var player1btn = document.getElementById('p1Btn');
 var player2btn = document.getElementById('p2Btn');
 
+
 player1btn.addEventListener("click", () => { 
     player1btn.setAttribute("style", "opacity:0.5");
     
@@ -13,19 +14,6 @@ player1btn.addEventListener("click", () => {
 
 player2btn.addEventListener("click", () => { 
     player2btn.setAttribute("style", "opacity:0.5");
-});
-
-//planning round p1 play
-var p1PlanSaveBtn = document.getElementById('p1-plan-save-button');
-var p1PlanSubmitBtn = document.getElementById('p1-plan-submit-button');
-var p1inputBarginningChips = "";
-var p1inputWalkaway = "";
-
-p1PlanSaveBtn.addEventListener("click", () => {
-    p1inputBarginningChips = document.getElementById('barginning-chips').value;
-    p1inputWalkaway = document.getElementById('walkaway-options').value;
-    console.log(p1inputWalkaway);
-    console.log("p1inputWalkaway");
 });
 
 /*
