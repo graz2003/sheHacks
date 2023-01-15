@@ -1,6 +1,6 @@
 
-var player1Score = 0;
-var player2Score = 0;
+export var player1Score = 0;
+export var player2Score = 0;
 
 //planning round start
 var player1btn = document.getElementById('p1Btn');
