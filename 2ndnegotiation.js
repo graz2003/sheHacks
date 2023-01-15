@@ -11,11 +11,17 @@
   }
   }, 1000);
 
-  document.querySelector('#final-button').addEventListener('click', function(){ alert ("Success") });
+  document.getElementById('final-button').addEventListener('click', function(){ 
+    console.log("hi");
+    alert ("Success"); 
+  });
   
-  document.querySelector('#p1-walk-button').addEventListener('click', function(){ alert ("Player 1 walked away") });
+  document.getElementById('p1-walk-button').addEventListener('click', function(){ 
+    console.log("hi");
+    alert ("Player 1 walked away"); 
+  });
 
-  document.querySelector('#p2-walk-button').addEventListener('click', function(){ alert ("Player 2 walked away") });
+  document.getElementById('p2-walk-button').addEventListener('click', function(){ alert ("Player 2 walked away") });
 
 
 
