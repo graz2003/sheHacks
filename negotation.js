@@ -1,32 +1,15 @@
 // Click button start timer
-const timer = document.getElementById('timer');
-let time = 60;
-setInterval(timerCount,1000);
-
-function timerCount() {
-    let seconds = 60;
-    timer.innerHTML = `${seconds}`;
-    time--;
-
-    // once time is up, reset timer
-    if (seconds==0){
-        clearInterval(timerCount);
-        alert('Time up next player. Click continue to start timer');
+var counter = 60;
+  setInterval( function(){
+    counter--;
+    if (counter>=0){
+      id = document.getElementById("timer");
+      id.innerHTML = counter;
     }
+  }, 1000);
 
-    // Check if submit button clicked for both users
-    document.getElementById('submitButton1').onclick = function() {
-        alert("Succes");
-    }​;​
+  document.querySelector('#submitButton1').addEventListener('click', function(){ alert ("The button was clicked!") });
+  
+  document.querySelector('#walkButton1').addEventListener('click', function(){ alert ("The button1 was clicked!") });
 
-    // Check if anyone walked away
-    //Player 1 check
-    document.getElementById('walkButton1').onclick = function() {
-        alert("Player 1 walked out");
-    }​;​
-
-    //Player 2 check
-    document.getElementById('walkButton2').onclick = function() {
-        alert("Player 2 walked out");
-    }​;​
-}
+  document.querySelector('#walkButton2').addEventListener('click', function(){ alert ("The button2 was clicked!") });
