@@ -1,14 +1,14 @@
-// Click button start timer
-var counter = 60;
+  // Click button start timer
+  var counter = 60;
   setInterval( function(){
-    counter--;
-    if (counter>=0){
-      id = document.getElementById("timer");
-      id.innerHTML = counter;
-    }
-    if (counter==0){
+  counter--;
+  if (counter>=0){
+    id = document.getElementById("timer");
+    id.innerHTML = counter;
+  }
+      if (counter==0){
         alert("Timer done.")
-    }
+  }
   }, 1000);
 
   document.querySelector('#final-button').addEventListener('click', function(){ alert ("Success") });
