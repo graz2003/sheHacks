@@ -1,168 +1,83 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
     
 }
-
 .container{
-  height: 100vh;
-  width: 100%;
-  background-image: url(background.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1000%;
- 
-  padding-left: 5%;
-  padding-right: 5%;
-  box-sizing: border-box;
-  position: relative;
-  text-align: center;  
-  padding-top: 300px;
+    height: : 100vh;
+    width: 100%;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;  
+    padding-top: 300px;
 }
 
-.container2{
-  height: : 100vh;
-  width: 100%;
-  background-image: url(background.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding-left: 5%;
-  padding-right: 5%;
-  box-sizing: border-box;
-  
-}
-.content{
-    text-align: left;
-}
-.inputTable{
-    border: 20px;
-}
-.generated{
-   border: 1px solid; 
-   border-radius: 15%;
-}
 
-.table{
-    border: 1px solid;
-    color: black;
-    border-color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px #F1D8C7;
-    display: inline-block;
+
+.play{
+    text-align: center; 
     
-}
-.start-page-button{
-  text-align: center; 
-  
-border: none;
-color: white;
-padding: 15px 32px;
-
-text-decoration: none;
-display: inline-block;
-  border-radius: 50%;
-}
-
-.start-page-button:active{
-   background-color: darkgrey;
-box-shadow: 0 5px #666;
-transform: translateY(4px);
-}
-
-.start-page-button:hover{
-  background-color: darkgrey
-}
-
-.p1-plan-button{
-  text-align: center; 
-  
-border: none;
-color: white;
-padding: 15px 32px;
-
-text-decoration: none;
-display: inline-block;
-  border-radius: 50%;
-
-}
-.p1-plan-button:active{
-  background-color: darkgrey;
-box-shadow: 0 5px #666;
-transform: translateY(4px);
-}
-
-.p1-plan-button:hover {background-color: darkgrey}
-
-.button {
-  text-align: center; 
   border: none;
-  background-color: #91666d;
-  color:#ededed;
+  color: white;
   padding: 15px 32px;
-  margin: 40px 20px;
-
+ 
   text-decoration: none;
   display: inline-block;
-  border-radius: 8px;
-
-}
-
-.button:active {
-background-color: #ad9095;
-box-shadow: 0 5px #998286;
-transform: translateY(4px) translateX(1px);
+    border-radius: 50%;
   
 }
 
-.button:hover {background-color: #ad9095}
-
-.input-box{
-  height:200px;
-  font-size:14pt;
-}
-
-#bargainning-chips{
-  height:200px;
-  font-size:14pt;
-  text-align: center;
+.play:active {
+  background-color: darkgrey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
     
 }
 
-#needsContent{
-    font-size: 15px;
-}
-#walkaway-options{
-  height:200px;
-  font-size:14pt;
-  text-align: center;
-}
-#title{
-  font-size: 30px;
-}
+.play:hover {background-color: darkgrey}
 
-#subtitle{
-  font-size: 15px;
-}
-.planning-round{
-  padding-top: 10px;
-}
-
-#keyContent{
-      font-size: 15px;
-}
-#timer{
+.tutorial{
+    
+  text-align: center; 
   border: none;
-color: white;
-padding: 15px 32px;
-
-text-decoration: none;
-display: inline-block;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
   border-radius: 50%;
+
+    
 }
 
+
+
+.tutorial:hover {background-color: darkgrey}
+
+.tutorial:active {
+  background-color: darkgrey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.title{
+    
+    font-size: 30px;
+   
+
+    
+        
+
+}
+.subtitle{
+
+    font-size: 15px;
+   
+}
