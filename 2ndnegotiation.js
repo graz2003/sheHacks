@@ -6,8 +6,8 @@
     id = document.getElementById("timer");
     id.innerHTML = counter;
   }
-      if (counter==0){
-        alert("Timer done.")
+  if (counter==0){
+      alert("Timer done.")
   }
   }, 1000);
 
