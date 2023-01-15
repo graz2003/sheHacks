@@ -62,7 +62,7 @@
     document.getElementById('reset-score').style.opacity = 1;
   });
 
-  document.getElementById('p1reset-score').addEventListener("click", function (){
+  document.getElementById('reset-score').addEventListener("click", function (){
     resetGame();
     console.log("reset");
   });
