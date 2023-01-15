@@ -76,25 +76,26 @@ transform: translateY(4px);
 
 .button {
   text-align: center; 
-  
-border: none;
-color: white;
-padding: 15px 32px;
+  border: none;
+  background-color: #91666d;
+  color:#ededed;
+  padding: 15px 32px;
+  margin: 40px 20px;
 
-text-decoration: none;
-display: inline-block;
-  border-radius: 50%;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
 
 }
 
 .button:active {
-background-color: darkgrey;
-box-shadow: 0 5px #666;
-transform: translateY(4px);
+background-color: #ad9095;
+box-shadow: 0 5px #998286;
+transform: translateY(4px) translateX(1px);
   
 }
 
-.button:hover {background-color: darkgrey}
+.button:hover {background-color: #ad9095}
 
 .input-box{
   height:200px;
