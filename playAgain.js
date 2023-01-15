@@ -1,11 +1,17 @@
-reset.addEventListener("click", function (){
-    resetGame();
 
+document.getElementById('p1reset-score').addEventListener("click", function (){
+    resetGame();
+    console.log("reset");
+});
+
+document.getElementById('p2reset-score').addEventListener("click", function (){
+    resetGame();
+    console.log("reset");
 });
 
 function resetGame(){
-    var player1Score = 0; 
-    var Player2Score = 0; 
+    player1Score = 0; 
+    Player2Score = 0; 
 }
 
 
