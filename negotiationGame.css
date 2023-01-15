@@ -166,3 +166,18 @@ display: inline-block;
   border-radius: 50%;
 }
 
+ .special-button{
+   text-align: center; 
+   border: none;
+   background-color: #91666d;
+   color:#ededed;
+   padding: 15px 32px;
+   margin: 40px 20px;
+ 
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 8px;
+ 
+   opacity:0;
+ }
+ 
