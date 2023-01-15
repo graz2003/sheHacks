@@ -1,6 +1,6 @@
-    // Click button start timer
-    var counter = 60;
-    setInterval( function(){
+  // Click button start timer
+  var counter = 60;
+  setInterval( function(){
   counter--;
   if (counter>=0){
     id = document.getElementById("timer");
