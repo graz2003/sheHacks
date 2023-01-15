@@ -2,17 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-    
 }
-
 .container{
-  height: 100vh;
+  height: : 100vh;
   width: 100%;
   background-image: url(background.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1000%;
- 
+  background-size: cover;
+  background-attachment: fixed;
   padding-left: 5%;
   padding-right: 5%;
   box-sizing: border-box;
@@ -33,29 +31,6 @@
   padding-right: 5%;
   box-sizing: border-box;
   
-}
-.content{
-    text-align: left;
-}
-.inputTable{
-    border: 20px;
-}
-.generated{
-   border: 1px solid; 
-   border-radius: 15%;
-}
-
-.table{
-    border: 1px solid;
-    color: black;
-    border-color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px #F1D8C7;
-    display: inline-block;
-    
 }
 .start-page-button{
   text-align: center; 
@@ -131,11 +106,6 @@ transform: translateY(4px) translateX(1px);
   height:200px;
   font-size:14pt;
   text-align: center;
-    
-}
-
-#needsContent{
-    font-size: 15px;
 }
 #walkaway-options{
   height:200px;
@@ -152,10 +122,15 @@ transform: translateY(4px) translateX(1px);
 .planning-round{
   padding-top: 10px;
 }
-
-#keyContent{
-      font-size: 15px;
+#needs{
+  text-align: center;
+  width: 300px;
+  border: 2px solid #998286;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px;
 }
+
 #timer{
   border: none;
 color: white;
@@ -165,4 +140,25 @@ text-decoration: none;
 display: inline-block;
   border-radius: 50%;
 }
+#key-interests{
+ width: 300px;
+border: 5px solid grey;
+border-radius: 50%;
+padding: 25px;
+margin: 20px;  
+}
 
+.special-button{
+  text-align: center; 
+  border: none;
+  background-color: #91666d;
+  color:#ededed;
+  padding: 15px 32px;
+  margin: 40px 20px;
+
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+
+  opacity:0;
+}
